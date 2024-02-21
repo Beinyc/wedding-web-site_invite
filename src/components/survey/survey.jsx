@@ -7,19 +7,37 @@ export default function Survey() {
             <h5>ПОДТВЕРДИТЕ СВОЕ ПРИСУТСТВИЕ</h5>
             <input type="text" placeholder='Имя и Фамилия'/>
             <p>Придешь ?</p>
-            <div>
-                <input type="radio"/><p>Да</p>
-                <input type="radio"/><p>Нет</p>
+            <div className='survey__list'>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="radio"/><p className='survey__radio-text'>Да</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="radio"/><p className='survey__radio-text'>Нет</p>
+                </div>
             </div>
             <p>Предпочтение по напиткам (можно выбрать несколько вариантов):</p>
-            <div>
-                <input type="radio"/><p>Шампанское</p>
-                <input type="radio"/><p>Белое вино</p>
-                <input type="radio"/><p>Красное вино</p>
-                <input type="radio"/><p>Красное вино</p>
-                <input type="radio"/><p>Коньяк</p>
-                <input type="radio"/><p>Водка</p>
-                <input type="radio"/><p>Алкоголь не пью</p>
+            <div className='survey__list'>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Шампанское</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Белое вино</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Красное вино</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Красное вино</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Коньяк</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Водка</p>
+                </div>
+                <div className='survey__flex-list'>
+                    <input className='survey__radio' type="checkbox"/><p className='survey__radio-text'>Алкоголь не пью</p>
+                </div>
             </div>
             <button>Отправить</button>
         </div>

@@ -1,6 +1,6 @@
 .program{
     width: 450px;
-    background-color: rgb(59, 59, 59);
+    background-color: #353535;
     color: white;
     border-radius: 5px;
 }
@@ -38,4 +38,17 @@
     border-bottom: 1px solid;
     width: 400px;
     display: flex;
+}
+
+.program__vector {
+    max-width: 450px;
+    position: relative;
+    top: -25px;
+}
+
+.program__vector-2 {
+    max-width: 450px;
+    transform: rotate(180deg);
+    position: relative;
+    top: 37px;
 }

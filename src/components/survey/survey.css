@@ -1,8 +1,30 @@
 .survey {
     max-width: 450px;
-    background-color: rgb(59, 59, 59);
+    background-color: #353535;
     color: white;
     position: relative;
     top: -10px;
-    padding-bottom: 30px;
+    padding-bottom: 30px
+}
+
+.survey__list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.survey__radio {
+    width: 20px;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.survey__radio-text {
+    margin: 0;
+}
+
+.survey__flex-list {
+    display: flex;
+    text-align: center;
 }
