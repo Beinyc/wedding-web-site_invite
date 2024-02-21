@@ -1,0 +1,26 @@
+.dress-code {
+    width: 450px;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.dress-code__image {
+    width: 90px;
+    height: 110px;
+}
+
+.dress-code__list {
+    max-width: 389px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
+    grid-auto-flow: dense;
+}
+
+.dress-code__image-color {
+    max-width: 400px;
+}

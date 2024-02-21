@@ -1,0 +1,19 @@
+.bookmark {
+    max-width: 450px;
+    background-color: rgb(229, 228, 228);
+}
+
+.bookmark__image {
+    width: 50px;
+    position: relative;
+    right: -164px;
+}
+
+.bookmark__paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark__image-down {
+    max-width: 450px;
+}
