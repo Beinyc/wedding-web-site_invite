@@ -1,0 +1,17 @@
+.place {
+    width: 450px;
+    background-color: rgb(229, 228, 228);
+}
+
+.place__title {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.place__paragraph {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
