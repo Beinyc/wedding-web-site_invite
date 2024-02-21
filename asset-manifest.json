@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wedding-web-site_invite/static/css/main.48f4a6a3.css",
+    "main.js": "/wedding-web-site_invite/static/js/main.51cb5955.js",
+    "static/media/bookmarkImage.png": "/wedding-web-site_invite/static/media/bookmarkImage.0fb06f189bdb0d456eb7.png",
+    "static/media/4.png": "/wedding-web-site_invite/static/media/4.3912fc55fb49fa2cb9eb.png",
+    "static/media/6.png": "/wedding-web-site_invite/static/media/6.996a0a2cf32f7a1982ad.png",
+    "static/media/2.png": "/wedding-web-site_invite/static/media/2.617dc3a1df71bfa678ce.png",
+    "static/media/1666127537_13-mykaleidoscope-ru-p-vlyublennaya-para-krasivo-15.jpg": "/wedding-web-site_invite/static/media/1666127537_13-mykaleidoscope-ru-p-vlyublennaya-para-krasivo-15.d1b7c51f5f1cd97578d7.jpg",
+    "static/media/8.png": "/wedding-web-site_invite/static/media/8.91c9f1ff81378162c10a.png",
+    "static/media/5.png": "/wedding-web-site_invite/static/media/5.ea2fd75d1db37dd9b2a6.png",
+    "static/media/9.png": "/wedding-web-site_invite/static/media/9.da3d184012f80dbcfc09.png",
+    "static/media/1.png": "/wedding-web-site_invite/static/media/1.20d637484e7b485235c1.png",
+    "static/media/3.png": "/wedding-web-site_invite/static/media/3.812ab0908fc780620456.png",
+    "static/media/main.jpg": "/wedding-web-site_invite/static/media/main.f2dbb90778c7ccc5dcb1.jpg",
+    "static/media/7.png": "/wedding-web-site_invite/static/media/7.55a1e79af44b9ae81db5.png",
+    "index.html": "/wedding-web-site_invite/index.html",
+    "main.48f4a6a3.css.map": "/wedding-web-site_invite/static/css/main.48f4a6a3.css.map",
+    "main.51cb5955.js.map": "/wedding-web-site_invite/static/js/main.51cb5955.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48f4a6a3.css",
+    "static/js/main.51cb5955.js"
+  ]
+}
