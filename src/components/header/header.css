@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    background-color: bisque;
+}
+
+.header__image {
+    max-width: 450px;
+    height: 520px;
+    object-fit: cover;
+}
+
+.header__title {
+    top: -524px;
+    left: -72px; 
+    position: relative;
+}
+
+.header__name {
+    margin: 0;
+}
+
+.header__date {
+    margin: 0;
+}

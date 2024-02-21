@@ -1,0 +1,33 @@
+.main {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 450px;
+}
+
+.main__image {
+    max-width: 250px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.main__text {
+    margin: 0;
+    width: 250px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.main__paragraph {
+   margin: 0;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   width: 350px; 
+}
+
+.main__date {
+    margin: 0;
+    padding-bottom: 50px;
+}
