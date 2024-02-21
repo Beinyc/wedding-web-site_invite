@@ -10,15 +10,18 @@
     list-style: none;
     padding: 0;
     max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .program_time {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    width: 380px;
     padding: 0;
+    padding-top: 10px;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    align-items: flex-start;
 }
 
 .program__description {

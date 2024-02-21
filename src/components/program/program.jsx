@@ -13,7 +13,7 @@ export default function Program() {
                 <li className='program_time' >18:00 - Свадебный ужин
                     <p className='program__description'>Время танцев, вкусной еды и любви</p>
                 </li>
-                <li>00:00 - Заверешние вечера</li>
+                <li className='program_time'>00:00 - Заверешние вечера</li>
             </ul>
         </div>
     );
