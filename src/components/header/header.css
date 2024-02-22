@@ -1,10 +1,11 @@
 .header {
     position: relative;
     background-color: rgb(229, 228, 228);
+    max-width: 450px;
 }
 
 .header__image {
-    max-width: 450px;
+    width: 95%;
     height: 520px;
     object-fit: cover;
 }
@@ -20,6 +21,12 @@
     padding-top: 61px;
     font-family: "Oswald", sans-serif;
     color: rgb(85, 83, 81);
+}
+
+@media (max-width: 400px){
+    .header__name {
+        font-size: 20px;
+    } 
 }
 
 .header__date {

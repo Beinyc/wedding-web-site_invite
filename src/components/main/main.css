@@ -31,6 +31,12 @@
    font-weight: 300; 
 }
 
+@media (max-width: 370px){
+    .main__paragraph {
+        width: 290px;
+    } 
+}
+
 .main__date {
     margin: 0;
     padding-bottom: 50px;

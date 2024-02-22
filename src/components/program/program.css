@@ -1,5 +1,5 @@
 .program{
-    width: 450px;
+    max-width: 450px;
     background-color: #353535;
     color: white;
     border-radius: 5px;
@@ -8,26 +8,31 @@
 .program__title {
     padding-top: 30px;
     margin: 0;
-    margin-left: 12px;
-    padding-left: 25px;
+    padding-left: 35px;
     font-size: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid;
-    width: 400px;
+    width: 100%;
     display: flex;
 }
 
+@media (max-width: 400px){
+    .program__title {
+        font-size: 20px; 
+    }
+}
+
 .program__vector {
-    max-width: 450px;
+    max-width: 100%;
     position: relative;
     top: -25px;
 }
 
 .program__vector-2 {
-    max-width: 450px;
+    max-width: 100%;
     transform: rotate(180deg);
     position: relative;
-    top: 37px;
+    top: 33px;
 }
 
 .program__time-flex {
@@ -55,17 +60,39 @@
     padding-top: 48px;
 }
 
-.program__margin-zero {
-    margin: 0;
-}
-
 .program__paragraph-up {
     padding-bottom: 30px;
     font-style: italic;
     font-size: 30px;
+    margin: 0;
 }
 
 .program__paragraph-down {
     font-family: "Oswald", sans-serif;
     font-weight: 100;
+    margin: 0;
+}
+
+.program__list-flex {
+    padding-left: 12px;
+    width: 95%;
+}
+
+@media (max-width: 380px){
+    .program__time {
+        font-size: 20px;
+        padding-left: 35px; 
+    }
+
+    .program__paragraph-up {
+        padding-bottom: 5px;
+    }
+
+    .program__paragraph-up {
+        font-size: 23px;
+    }
+
+    .program__item-flex {
+        padding-top: 7px;
+    }
 }

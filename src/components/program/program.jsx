@@ -7,7 +7,7 @@ export default function Program() {
         <div className='program'>
             <img className='program__vector' src={vector} alt="дуга" />
             <p className='program__title'>Программа дня</p>
-            <div>
+            <div className='program__list-flex'>
                 <div className='program__time-flex'>
                     <p className='program__time'>16:30</p>
                     <p className='program__dash'>—</p>
