@@ -15,19 +15,25 @@
 
 .main__text {
     margin: 0;
-    width: 250px;
+    width: 320px;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
 }
 
 .main__paragraph {
    margin: 0;
    padding-top: 50px;
    padding-bottom: 10px;
-   width: 350px; 
+   width: 420px;
+   font-family: "Oswald", sans-serif;
+   font-weight: 300; 
 }
 
 .main__date {
     margin: 0;
     padding-bottom: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
 }

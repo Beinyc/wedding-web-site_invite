@@ -7,16 +7,38 @@ export default function Program() {
         <div className='program'>
             <img className='program__vector' src={vector} alt="дуга" />
             <p className='program__title'>Программа дня</p>
-            <ul className='program__list'>
-                <li className='program_time'>16:30 - Сбор гостей
-                    <p className='program__description'>Парк Зеленый Лог</p>
-                </li>
-                <li className='program_time' >17:00 - Церемония</li>
-                <li className='program_time' >18:00 - Свадебный ужин
-                    <p className='program__description'>Время танцев, вкусной еды и любви</p>
-                </li>
-                <li className='program_time'>00:00 - Заверешние вечера</li>
-            </ul>
+            <div>
+                <div className='program__time-flex'>
+                    <p className='program__time'>16:30</p>
+                    <p className='program__dash'>—</p>
+                    <div className='program__item-flex'>
+                        <p className='program__margin-zero program__paragraph-up'>Сбор гостей</p>
+                        <p className='program__margin-zero program__paragraph-down'>Парк Зеленый Лог</p>
+                    </div>
+                </div>
+                <div className='program__time-flex'>
+                    <p className='program__time'>17:00</p>
+                    <p className='program__dash'>—</p>
+                    <div className='program__item-flex'>
+                        <p className='program__margin-zero program__paragraph-up'>Церемония</p>
+                    </div>
+                </div>
+                <div className='program__time-flex'>
+                    <p className='program__time'>18:00</p>
+                    <p className='program__dash'>—</p>
+                    <div className='program__item-flex'>
+                        <p className='program__margin-zero program__paragraph-up'>Свадебный ужин</p>
+                        <p className='program__margin-zero program__paragraph-down'>Время танцев, вкусной еды и любви</p>
+                    </div>
+                </div>
+                <div className='program__time-flex'>
+                    <p className='program__time'>00:00</p>
+                    <p className='program__dash'>—</p>
+                    <div className='program__item-flex'>
+                        <p className='program__margin-zero program__paragraph-up'>Заверешние вечера</p>
+                    </div>
+                </div>
+            </div>
             <img className='program__vector-2' src={vector} alt="дуга" />
         </div>
     );
