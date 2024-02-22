@@ -24,3 +24,46 @@
 .dress-code__image-color {
     max-width: 400px;
 }
+
+.dress-code__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.dress-code__paragraph {
+    margin: 0;
+    padding-top: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300; 
+}
+
+.dress-code__paragraph-down {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.dress-code__text {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.dress-code__text-girl {
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+.dress-code__text-color {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.dress-code__text-boy {
+    font-weight: 200;
+}

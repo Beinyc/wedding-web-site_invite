@@ -19,3 +19,19 @@
     max-width: 450px;
     border-radius: 5px;
 }
+
+.bookmark__text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bookmark__text-organizate {
+    padding-bottom: 10px;
+}
+
+.bookmark__text-phone {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -3,4 +3,18 @@
     width: 450px;
     position: relative;
     top: -10px;
+    padding-top: 10px;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+.footer__image {
+    width: 100px;
+    cursor: pointer;
+}
+
+.footer__image:hover {
+    width: 50px;
 }

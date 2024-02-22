@@ -4,7 +4,8 @@
     color: white;
     position: relative;
     top: -10px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    border-radius: 1.5px;
 }
 
 .survey__list {
@@ -14,10 +15,9 @@
 }
 
 .survey__radio {
-    width: 20px;
     margin: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 20px;
+    margin-bottom: 14px;
 }
 
 .survey__radio-text {
@@ -27,4 +27,42 @@
 .survey__flex-list {
     display: flex;
     text-align: center;
+}
+
+.survey__text {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.survey__input-text {
+    display: flex;
+    background-color: #353535;
+    border: 1px solid gray;
+    border-radius: 7px;
+    justify-content: flex-start;
+    margin-left: 23px;
+    width: 350px;
+    height: 35px;
+    color: gray;
+}
+
+.survey__text-go {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.survey__button {
+    margin-top: 25px;
+    width: 320px;
+    height: 35px;
+    border: 0;
+    border-radius: 7px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
 }

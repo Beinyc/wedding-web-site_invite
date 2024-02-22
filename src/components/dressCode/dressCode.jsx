@@ -15,7 +15,7 @@ import color from '../../images/color.png'
 export default function DressCode() {
     return (
         <div className='dress-code'>
-           <h4 className='dress-code__title;'>Дресс-код</h4>
+           <h4 className='dress-code__title'>Дресс-код</h4>
            <p className='dress-code__paragraph'>Мы будем очень благодарны, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах</p>
            <p className='dress-code__paragraph-down'>Мы собрали немного референсов</p>
             <div className='dress-code__list'>
@@ -29,9 +29,9 @@ export default function DressCode() {
                 <img className='dress-code__image' src={imageDres8} alt="фото дрес кода"/>
                 <img className='dress-code__image' src={imageDres9} alt="фото дрес кода"/>
             </div>
-            <p>Для девушек: коктейльные наряды</p>
-            <p>Для мужчин: костюм, рубашки туфли</p>
-            <p>Цветовая палитра:</p>
+            <p className='dress-code__text dress-code__text-girl'>Для девушек: коктейльные наряды</p>
+            <p className='dress-code__text dress-code__text-boy'>Для мужчин: костюм, рубашки туфли</p>
+            <p className='dress-code__text dress-code__text-color'>Цветовая палитра:</p>
             <img className='dress-code__image-color' src={color} alt="цветовая палитра" />
         </div>
     );
