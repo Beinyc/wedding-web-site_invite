@@ -1,16 +1,16 @@
 import React from 'react';
 import './dressCode.css'
 
-import imageDres1 from '../images/1.png';
-import imageDres2 from '../images/2.png';
-import imageDres3 from '../images/3.png';
-import imageDres4 from '../images/4.png';
-import imageDres5 from '../images/5.png';
-import imageDres6 from '../images/6.png';
-import imageDres7 from '../images/7.png';
-import imageDres8 from '../images/8.png';
-import imageDres9 from '../images/9.png';
-import color from '../images/color.png'
+import imageDres1 from '../../images/1.png';
+import imageDres2 from '../../images/2.png';
+import imageDres3 from '../../images/3.png';
+import imageDres4 from '../../images/4.png';
+import imageDres5 from '../../images/5.png';
+import imageDres6 from '../../images/6.png';
+import imageDres7 from '../../images/7.png';
+import imageDres8 from '../../images/8.png';
+import imageDres9 from '../../images/9.png';
+import color from '../../images/color.png'
 
 export default function DressCode() {
     return (

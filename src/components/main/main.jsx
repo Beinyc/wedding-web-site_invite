@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import mainImage from '../images/main.jpg'
+import mainImage from '../../images/main.jpg'
 
 export default function Main() {
     return (

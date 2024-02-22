@@ -1,6 +1,6 @@
 import React from 'react';
 import './program.css';
-import vector from '../images/vector1.png'
+import vector from '../../images/vector1.png'
 
 export default function Program() {
     return (

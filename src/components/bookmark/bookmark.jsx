@@ -1,7 +1,7 @@
 import React from 'react';
 import './bookmark.css'
-import bookmarkImage from '../images/zakladka.png';
-import bookMarkImage from '../images/bookmarkImage.png'
+import bookmarkImage from '../../images/zakladka.png';
+import bookMarkImage from '../../images/bookmarkImage.png'
 
 export default function Bookmark() {
     return (
