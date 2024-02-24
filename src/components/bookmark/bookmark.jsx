@@ -6,7 +6,9 @@ import bookMarkImage from '../../images/bookmarkImage.png'
 export default function Bookmark() {
     return (
         <div className='bookmark'>
-            <img className='bookmark__image' src={bookmarkImage} alt="картинка в форме закладки" />
+            <div className='bookmark__image-flex'>
+                <img className='bookmark__image' src={bookmarkImage} alt="картинка в форме закладки" />
+            </div>
            <div className='bookmark__paragraph'>
             <p className='bookmark__text bookmark__text-organizate'>ОРГАНИЗАЦИОННЫЕ МОМЕНТЫ</p>
             <p className='bookmark__text' >Если вы планировали подарить нам букет, то в качестве альтернативы мы были бы очень рады бутылочке вашего любимого вина, это будет ещё одним хорошим поводом встретиться и разделить его вместе.</p> 

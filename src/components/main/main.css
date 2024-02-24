@@ -1,10 +1,10 @@
 .main {
+    max-width: 450px;
     background-color: rgb(229, 228, 228);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 450px;
 }
 
 .main__image {
