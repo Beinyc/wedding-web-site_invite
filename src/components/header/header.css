@@ -1,27 +1,37 @@
 .header {
-    position: relative;
+    max-width: 1280px;
     background-color: rgb(229, 228, 228);
-    max-width: 450px;
+    position: relative;
+    z-index: 1;
 }
 
 .header__image {
-    width: 95%;
-    height: 520px;
-    object-fit: cover;
+    width: 98%;
 }
 
 .header__title {
-    top: -524px;
-    left: -72px; 
-    position: relative;
+    position: fixed;
+    top: 150px;
+    left: 92px;
+    font-size: 30px;
 }
 
 .header__name {
     margin: 0;
-    padding-top: 61px;
     font-family: "Oswald", sans-serif;
     color: rgb(85, 83, 81);
+    position: relative;
 }
+
+.header__date {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    color: rgb(85, 83, 81);
+    font-size: 20px;
+    position: relative;
+}
+
+/* 
 
 @media (max-width: 400px){
     .header__name {
@@ -35,4 +45,24 @@
     font-family: "Oswald", sans-serif;
     color: rgb(85, 83, 81);
     font-size: 20px;
+} */
+
+@media (max-width: 1000px){
+    .header__title {
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 450px){
+    .header__title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px){
+    .header__title {
+        font-size: 10px;
+        top: 69px;
+        left: 18px;
+    }
 }
