@@ -1,6 +1,7 @@
 .place {
     background-color: rgb(229, 228, 228);
     max-width: 450px;
+    padding-top: 50px;
 }
 
 .place__title {
