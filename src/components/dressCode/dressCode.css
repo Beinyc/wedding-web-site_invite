@@ -1,5 +1,7 @@
 .dress-code {
-    max-width: 450px;
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
     padding-bottom: 25px;
     display: flex;
     flex-direction: column;
@@ -8,44 +10,47 @@
     color: white;
 }
 
-.dress-code__image {
-    width: 90px;
-    height: 110px;
+.dress-code__title {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 200;
 }
 
 .dress-code__list {
-    max-width: 389px;
+    max-width: 1000px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(90px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30%,1fr));
     grid-auto-flow: dense;
+}
+.dress-code__image {
+    width: 98%;
+    object-fit: cover;
 }
 
 .dress-code__image-color {
-    max-width: 70%;
-}
-
-.dress-code__title {
-    font-family: "Oswald", sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding-top: 20px;
+    max-width: 90%;
 }
 
 .dress-code__paragraph {
     margin: 0;
-    padding-top: 5px;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    width: 100%; 
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: 200;
 }
 
 .dress-code__paragraph-down {
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .dress-code__text {
@@ -55,7 +60,8 @@
 }
 
 .dress-code__text-girl {
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 38px;
     font-weight: 200;
 }
 
@@ -63,14 +69,42 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 400;
+    font-size: 28px;
+    font-weight: 200;
 }
 
 .dress-code__text-boy {
     font-weight: 200;
+    font-size: 38px;
 }
 
-@media (max-width: 380px) {
-    .dress-code__paragraph {
-        
+@media (max-width: 875px){
+    .dress-code__list {
+       grid-gap: 5px; 
     }
+    .dress-code__paragraph {
+        font-size: 20px;
+    }
+    .dress-code__paragraph-down {
+        font-size: 20px;
+    }
+    .dress-code__text-girl {
+        font-size: 25px;
+    }
+    .dress-code__text-boy {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 580px){
+    .dress-code__paragraph {
+        max-width: 420px;
+    }
+    .dress-code__list {
+        grid-gap: 1.5px;
+    }
+}
+
+@media (max-width: 380px){
+
 }

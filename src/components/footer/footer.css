@@ -1,5 +1,6 @@
 .footer {
-    max-width: 450px;
+    margin: 0 auto;
+    max-width: 1280px;
     background-color: rgb(229, 228, 228);
     position: relative;
     top: -10px;
