@@ -24,10 +24,9 @@
     align-items: center;
 }
 
-
 .program__vector {
     max-width: 100%;
-    position: absolute;
+    position: relative;
     top: -62px;
     z-index: 0;
 }
@@ -35,8 +34,8 @@
 .program__vector-2 {
     max-width: 100%;
     transform: rotate(180deg);
-    position: absolute;
-    top: 461px;
+    position: relative;
+    top: 67px;
 }
 
 .program__time-flex {
@@ -96,23 +95,13 @@
     }
 
     .program__vector-2 {
-        top: 573px;
-    }
-}
-
-@media(max-width: 525px) {
-    .program__vector-2 {
-        top: 623px;
+        top: 37px;
     }
 }
 
 @media(max-width: 480px) {
     .program__vector {
         top: -27px; 
-    }
-
-    .program__vector-2 {
-        top: 626px;
     }
 }
 
@@ -122,7 +111,7 @@
     }
 
     .program__vector-2 {
-        top: 706px;
+        top: 31px;
     }
 }
 
@@ -142,9 +131,5 @@
     
     .program__item-flex {
         padding-top: 7px;
-    }
-
-    .program__vector-2 {
-        top: 383px;
     }
 }

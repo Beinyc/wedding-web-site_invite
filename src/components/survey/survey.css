@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.survey__text {
+    font-size: 50px;
+}
+
 .survey__list, .survey__form-name, .survey__form-rsvp {
     transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
     overflow: hidden;
@@ -82,7 +86,16 @@
     align-items: center;
 }
 
+@media(max-width: 535px) {
+    .survey__text {
+        font-size: 30px;
+    }
+}
+
 @media(max-width: 380px) {
+    .survey__text {
+        font-size: 20px;
+    }
     .survey__button {
         width: 90%;
     }

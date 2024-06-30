@@ -29,6 +29,10 @@
     font-size: 20px;
 }
 
+.place__map {
+    border: 0;
+}
+
 @media (max-width: 780px){
     .place {
         flex-direction: column;

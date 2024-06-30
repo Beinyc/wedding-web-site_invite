@@ -17,7 +17,6 @@ export default function Place() {
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Abd28c58dea1670573bf263199e754eac023dd3b00ea4d7b38b60907fcc7a3b22&amp;source=constructor"
             width="350"
             height="350"
-            frameborder="0"
           ></iframe>
         </div>
       </div>
