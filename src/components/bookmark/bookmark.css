@@ -45,3 +45,18 @@
     width: 95%;
     padding-bottom: 45px;
 }
+
+@media(max-width: 620px) {
+    .bookmark__text-organizate {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 450px) {
+    .bookmark__text {
+        font-size: 15px;
+    }
+    .bookmark__text-organizate {
+        font-size: 25px;
+    }
+}

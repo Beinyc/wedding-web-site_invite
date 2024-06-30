@@ -81,3 +81,15 @@
     text-align: center;
     align-items: center;
 }
+
+@media(max-width: 380px) {
+    .survey__button {
+        width: 90%;
+    }
+    .survey__input-text {
+        width: 90%;
+    }
+    .survey__input-text {
+        width: 90%;
+    }
+}
