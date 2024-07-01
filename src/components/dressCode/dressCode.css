@@ -26,9 +26,18 @@
     grid-template-columns: repeat(auto-fit, minmax(30%,1fr));
     grid-auto-flow: dense;
 }
+
 .dress-code__image {
     width: 98%;
     object-fit: cover;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.dress-code__image.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .dress-code__image-color {

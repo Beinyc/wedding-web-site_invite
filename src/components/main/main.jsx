@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./main.css";
 import mainImage from "../../images/main.jpg";
 
 export default function Main() {
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const image = imageRef.current;
+      const rect = image.getBoundingClientRect();
+      if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        image.classList.add("scrolled");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="main__bacground">
       <div className="main">
@@ -15,7 +32,7 @@ export default function Main() {
           </p>
           <p className="main__date main__margin-zero">29.03.2024</p>
         </div>
-        <img src={mainImage} alt="фото пары" className="main__image" />
+        <img src={mainImage} alt="фото пары" className="main__image" ref={imageRef} />
       </div>
     </div>
   );
