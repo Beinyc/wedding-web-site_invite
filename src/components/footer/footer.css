@@ -12,10 +12,11 @@
 
 .footer__text {
     margin: 0;
+    font-size: 23px;
 }
 
 .footer__image {
-    width: 100px; /* Установите размер изображения по своему усмотрению */
+    width: 21%; /* Установите размер изображения по своему усмотрению */
     height: auto;
     animation: heartbeat 1s infinite;
 }

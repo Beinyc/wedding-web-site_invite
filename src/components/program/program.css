@@ -15,7 +15,7 @@
     padding-top: 30px;
     margin: 0;
     padding-left: 35px;
-    font-size: 30px;
+    font-size: 58px;
     padding-bottom: 20px;
     border-bottom: 1px solid;
     width: 100%;
@@ -47,7 +47,7 @@
 }
 
 .program__time {
-    font-size: 30px;
+    font-size: 47px;
     padding-left: 15px;
 }
 
@@ -66,7 +66,7 @@
 .program__paragraph-up {
     padding-bottom: 30px;
     font-style: italic;
-    font-size: 30px;
+    font-size: 37px;
     margin: 0;
 }
 
@@ -74,6 +74,7 @@
     font-family: "Oswald", sans-serif;
     font-weight: 100;
     margin: 0;
+    font-size: 18px;
 }
 
 .program__list-flex {
@@ -83,7 +84,7 @@
     position: relative;
 }
 
-@media(max-width: 830px) {
+@media(max-width: 900px) {
     .program__flex {
         display: block;
     }

@@ -15,10 +15,22 @@
 
 .survey__flex-list {
     display: flex;
+    font-size: 42px;
 }
 
 .survey__text {
     font-size: 50px;
+}
+
+.survey__radio {
+    width: 40px;
+    height: 40px;
+}
+
+.survey__checkbox {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .survey__list, .survey__form-name, .survey__form-rsvp {
@@ -32,8 +44,11 @@
 }
 
 .survey__list-visible {
-    max-height: 500px; /* Достаточно большое значение для отображения всех элементов */
+    max-height: 500px;
     opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .survey__button-disabled {
@@ -53,7 +68,7 @@
 }
 
 .survey__input-text {
-    width: 350px;
+    width: 80%;
     height: 40px;
     border: 0;
     background-color: #353535;
@@ -62,7 +77,11 @@
     outline: none;
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 17px;
+    font-size: 39px;
+}
+
+.survey__text-go {
+    font-size: 62px;
 }
 
 .survey__button {
@@ -84,6 +103,20 @@
     padding-left: 5px;
     text-align: center;
     align-items: center;
+}
+
+@media(max-width: 890px) {
+    .survey__text {
+        font-size: 37px;
+    }
+    .survey__checkbox {
+        margin-left: 30px;
+        width: 20px;
+        height: 20px;
+    }
+    .survey__flex-list {
+        font-size: 31px;
+    }
 }
 
 @media(max-width: 535px) {
