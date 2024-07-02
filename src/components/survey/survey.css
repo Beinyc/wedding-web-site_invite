@@ -139,3 +139,10 @@
         width: 90%;
     }
 }
+
+.form__survey {
+    width: 95%;
+    height: 1050px;
+    margin: 0;
+    border: 0;
+}
