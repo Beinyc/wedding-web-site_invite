@@ -1,5 +1,6 @@
 import './App.css';
 import Bookmark from './components/bookmark/bookmark';
+import Company from './components/company/company';
 import DressCode from './components/dressCode/dressCode';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
@@ -19,6 +20,7 @@ function App() {
       <Bookmark/>
       <Survey/>
       <Footer/>
+      <Company/>
     </div>
   );
 }
